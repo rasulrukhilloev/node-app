@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Simple node js app to deploy using NGNIX to compare with Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasulrukhilloev/node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasulrukhilloev/node-app/issues"
+  },
+  "homepage": "https://github.com/rasulrukhilloev/node-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
